@@ -1,0 +1,137 @@
+html,body{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:cursive;
+    font-weight: 200;
+    line-height: 1.8em;
+    color:#666;
+}
+.front {
+    background-image:url(m2.jpg) ;
+    min-height :100%;
+    position: relative;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+.mtext{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top:40%;
+    width:100%;
+    text-align:justify;
+    left:10%;
+    color: hsl(181, 80%, 52%);
+    font-size: 40px;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+}
+.ptext{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position:absolute;
+    top:40%;
+    width:100%;
+    text-align:right;
+    right:25%;
+    color: hsl(181, 80%, 52%);
+    font-size: 40px;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+    
+}
+
+.text{
+    background: #313534;
+    width: 15px;
+   /* color: #fff;*/
+    padding: 5px;
+}
+
+.bg{
+    padding:50px 80px;
+    text-align:center;
+}
+
+.h2{
+    background-color: #f4f4f4;
+    color: #666;
+}
+.chandler{
+    padding:50px 80px;
+    text-align:center;
+}
+.second{
+    background-image: url(Main-chnadler.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.chandler{
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.third{
+    background-image: url(m1.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.grid-image{
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+.grid-image:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+}
+.grid{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "I1 I1 I2 I3"
+    "I1 I1 I2 I7"
+    "I4 I5 I6 I7";
+}
+.item1{
+    grid-area: I1;
+}
+.item2{
+    grid-area: I2;
+}
+.item3{
+    grid-area: I3;
+}
+.item4{
+    grid-area: I4;
+}
+.item5{
+    grid-area: I5;
+}
+.item6{
+    grid-area: I6;
+}
+.item7{
+    grid-area: I7;
+}
+
+.fight{
+    padding:50px 80px;
+    text-align: center;
+}
+
+
+   
